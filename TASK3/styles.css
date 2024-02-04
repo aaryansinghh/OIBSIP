@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Updated background color to black */
+    color: white; /* Set text color to white for better visibility */
+    text-align: center;
+    margin-top: 250px;
+    padding: 0;
+}
+
+#converter {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #333; /* A dark shade for the converter box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: red; /* Updated button background color to red */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #990000; /* Darker shade of red on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
